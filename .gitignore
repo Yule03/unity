@@ -1,0 +1,28 @@
+# Django
+*.py[cod]
+*$py.class
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3.bak
+staticfiles/
+media/
+.env
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+venv/
+env/
+ENV/
+.venv/
+*.log
