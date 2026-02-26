@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'unity.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='your_render_postgres_internal_url'
+        
     )
 }
 
